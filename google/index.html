@@ -16,7 +16,7 @@
     <nav>
       <a href="#" class="gmail">Gmail</a>
       <a href="#" class="imagens">Imagens</a>
-      <a href="#" class="apps"><img src="./assets/img/appicons.png" alt="apps"></a>
+      <a href="#" class="apps" onclick="apps()"><img src="./assets/img/appicons.png" alt="apps"></a>
       <a href="#" class="login">Fazer login</a>
     </nav>
   </header>
@@ -25,14 +25,14 @@
       <img src="./assets/img/google.png" alt="">
     </div>
     <form action="">
-      <button>
+      <button class="button">
         <i class="fas fa-search"></i>
       </button>
-      <input type="text" autofocus>
-      <button>
+      <input type="text" autofocus class="input">
+      <button class="button">
         <i class="far fa-keyboard"></i>
       </button>
-      <button>
+      <button class="button">
         <i class="fas fa-microphone"></i>
       </button>
     </form>
@@ -60,7 +60,59 @@
     </div>
   </footer>
   <script src="https://kit.fontawesome.com/59c5f51463.js" crossorigin="anonymous"></script>
-
+  <script src="./assets/js/main.js"></script>
+  <div onclick="containerModal()" class="container-modal">
+    <div class="modal">
+      <div>
+        <img src="./assets/img/googlelogog.svg" alt="">
+        <p>Pesquisa</p>
+      </div>
+      <div>
+        <img src="./assets/img/googlemaps.png" alt="">
+        <p>Maps</p>
+      </div>
+      <div>
+        <img src="./assets/img/googleyoutubelogo.png" alt="">
+        <p>YouTube</p>
+      </div>
+      <div>
+        <img src="./assets/img/googleplay.svg" alt="">
+        <p>Google Play</p>
+      </div>
+      <div>
+        <img src="./assets/img/googlenoticias.png" alt="">
+        <p>Notícias</p>
+      </div>
+      <div>
+        <img src="./assets/img/googlegmail.png" alt="">
+        <p>GMail</p>
+      </div>
+      <div>
+        <img src="./assets/img/googlemeet.svg" alt="">
+        <p>Meet</p>
+      </div>
+      <div>
+        <img src="./assets/img/googlechat.svg" alt="">
+        <p>Chat</p>
+      </div>
+      <div>
+        <img src="./assets/img/googlecontacts.png" alt="">
+        <p>Contatos</p>
+      </div>
+      <div>
+        <img src="./assets/img/googledrive.png" alt="">
+        <p>Drive</p>
+      </div>
+      <div>
+        <img src="./assets/img/googleagenda.svg" alt="">
+        <p>Agenda</p>
+      </div>
+      <div>
+        <img src="./assets/img/googletradutor.png" alt="">
+        <p>Google Tradutor</p>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
