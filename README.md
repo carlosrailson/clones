@@ -1,0 +1,2 @@
+# Clones
+- Repositório criado com a intenção de guardar os projetos que são "clones" de páginas e sistemas existentes e bastante conhecidos. Decidi fazer cada projeto que aqui está como forma de desafios a mim mesmo, afim de praticar e melhorar as minhas habilidades em HTML, CSS e JavaScript.
