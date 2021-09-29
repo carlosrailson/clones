@@ -47,7 +47,7 @@ nav a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 40px auto;
+  margin: 5px auto;
   max-width: 580px;
 }
 
@@ -114,7 +114,7 @@ footer {
 footer a {
   text-decoration: none;
   color: #70757a;
-  font-size: 13px;
+  font-size: 15px;
   margin: 0 10px;
 }
 
@@ -133,6 +133,57 @@ footer a:hover {
   justify-content: space-between;
 }
 
+@media (max-width: 1030px) {
+  .brasil {
+    margin-left: 20px;
+  }
+
+  .info1 {
+    margin-left: 40px;
+  }
+
+  .info2 {
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 840px) {
+  .rodape {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info1,
+  .info2 {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .login {
+    padding: 10px 15px;
+  }
+
+  .info1,
+  .info2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
+
+@media (max-width: 460px) {
+  .comofunciona {
+    margin-top: 20px;
+  }
+}
+
+.container-modal.mostrar {
+  display: flex;
+}
 
 .container-modal {
   position: absolute;
@@ -164,7 +215,7 @@ footer a:hover {
 }
 
 .modal div:hover {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   cursor: pointer;
 }
 
