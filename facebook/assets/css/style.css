@@ -1,0 +1,100 @@
+body,
+p {
+  background-color: #f0f2f5;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook {
+  width: 550px;
+  margin-right: 50px;
+}
+
+.facebook img {
+  height: 50px;
+}
+
+.facebook p {
+  margin-top: 20px;
+  font-size: 25px;
+  color: #1c1e21;
+}
+
+.login {
+  width: 400px;
+}
+
+.formulario {
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 3px 5px #d9dadd;
+}
+
+.formulario input,
+.formulario,
+button {
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.formulario .submit {
+  background-color: #166fe5;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.formulario a {
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 12px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.borda {
+  margin: 10px;
+  border-bottom: 1px solid #dddfe2;
+}
+
+button {
+  margin: 10px auto;
+  width: 200px;
+  background-color: #36a420;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.login p {
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login a {
+  text-decoration: none;
+  color: #1c1e21;
+  font-weight: bold;
+  cursor: pointer;
+}
